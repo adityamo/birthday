@@ -1,0 +1,95 @@
+[
+    { "msgs": ["Loha loha eryn"], "msgInputSpeed": 80 },
+    { "msgs": ["Aku bales chatnya disini ya"], "msgInputSpeed": 80 },
+    {
+        "msgs": ["Bolehkan bales disini ?"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": [],
+                "rejectKeyTexts": [],
+                "rejectHitTexts": [
+                    "oh iya aku adalah Minggo yang akan menjadi asisten Adit dalam virtual chat, jadi.."
+                ]
+            }
+        }
+    },
+    {
+        "msgs": [
+            "apa yang adit pikirin bakal dibales otomatis disini melalui telepati adit"
+        ],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["Sekarang tanggal 6 Januari bukan sih ?, aku lupa tanggal"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": [],
+                "rejectKeyTexts": ["Bukan"],
+                "rejectHitTexts": ["bener ga ??"]
+            }
+        }
+    },
+    {
+        "msgs": ["yang bener kalo ga bot aku disini bakalan marah"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["<img src='options/demo/imgs/catAngry.gif'/>"]
+    },
+    {
+        "msgs": ["Minggo watching you"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": [],
+                "rejectKeyTexts": [],
+                "rejectHitTexts": ["Ulang tahun dong sekarang kamu"]
+            }
+        }
+    },
+    {
+        "msgs": ["Umur 26 tahun dong sekarang ehehe"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": [],
+                "rejectKeyTexts": [],
+                "rejectHitTexts": ["eheheh 25 deh yaa"]
+            }
+        }
+    },
+    {
+        "msgs": ["Selamat ulang tahun erynnn, semoga panjang umur & Sehat selalu"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["oh iya aku dan minggo punya surat nih, mau baca ga?"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": [],
+                "rejectKeyTexts": [],
+                "rejectHitTexts": ["di pencet ya suratnya"]
+            }
+        }
+    },
+    {
+        "msgs": ["<letter src='options/demo/letters/test.json'/>"],
+        "triggerNextAction": { "type": "componentClose" }
+    },
+    {
+        "msgs": ["Makasih yaa udah baca, semoga kamu selalu inget aku yaa"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["See yaa"],
+        "msgInputSpeed": 80
+    }
+]
