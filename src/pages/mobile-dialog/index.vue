@@ -1,5 +1,4 @@
 <template>
-  <!-- <FloatingMusic /> -->
   <ChatDialog
     :options="chatOptions"
     :title="props.title"
@@ -10,7 +9,6 @@
 <script setup>
 import { ref, defineProps, onMounted } from 'vue';
 import ChatDialog from '../../components/chat-dialog/index.vue';
-import FloatingMusic from '../../components/FloatingMusic/index.vue';
 const props = defineProps({
   src: String,
   title: String,
