@@ -161,6 +161,7 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 .letter-title {
   font-size: 1.25rem;
   margin: 15px 0;
