@@ -188,7 +188,7 @@ export default {
   -webkit-box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.2);
   text-shadow: 0 1px 0 #f6ef97;
   position: relative;
-  font-family: 'Architects Daughter', cursive !important;
+  font-family: sans-serif, cursive !important;
 }
 .letter-detail {
   position: relative;

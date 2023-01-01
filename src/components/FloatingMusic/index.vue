@@ -4,10 +4,13 @@
       id="myAudio"
       src="../../../public/assets/music/Prep.mp3"
       class="hide"
+      allow="autoplay"
+      autoplay="true"
       loop
     ></audio>
     <img
       src="../../../public/assets/icons/music-icon.png"
+      ref="music"
       alt=""
       id="icon-music"
       class=""
@@ -26,16 +29,21 @@ export default {
       myAudio: document.getElementById('myAudio'),
     };
   },
-  methods: {},
-  computed: {
+  methods: {
     toggleMusic() {
-      //   let myAudio = document.getElementById('myAudio');
-      //   if (isActive) {
-      //     myAudio.play();
-      //   } else {
-      //     myAudio.pause();
-      //   }
+      let myAudio = document.getElementById('myAudio');
+      if (this.isPlaying == false) {
+        myAudio.play();
+        this.isPlaying = true;
+      } else {
+        myAudio.pause();
+        this.isPlaying = false;
+      }
+      console.log(this.isPlaying);
     },
   },
+  // mounted() {
+  //   this.$refs.music.click();
+  // },
 };
 </script>
