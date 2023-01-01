@@ -161,7 +161,7 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 .letter-title {
   font-size: 1.25rem;
   margin: 15px 0;
@@ -189,7 +189,7 @@ export default {
   -webkit-box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.2);
   text-shadow: 0 1px 0 #f6ef97;
   position: relative;
-  font-family: 'Poppins', cursive !important;
+  font-family: sans-serif, cursive !important;
 }
 .letter-detail {
   position: relative;
