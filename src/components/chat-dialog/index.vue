@@ -6,6 +6,7 @@
     <div id="mobile-body">
       <div id="mobile-body-bg"></div>
       <div id="mobile-body-content">
+        <FloatingMusic />
         <div id="mock-msg-row" class="msg-row">
           <div id="mock-msg" class="msg" v-html="latestMsgContent"></div>
         </div>
@@ -105,6 +106,7 @@ import vlog from './vlog/cover.vue';
 import MessageDetail from './MessageDetail.vue';
 import Typed from 'typed.js';
 import './css/main.scss';
+import FloatingMusic from '../../components/FloatingMusic/index.vue';
 const AUTHOR = {
   AUTHOR: 'author',
   ME: 'me',
@@ -119,6 +121,7 @@ export default {
     letter,
     vlog,
     MessageDetail,
+    FloatingMusic,
   },
   props: {
     title: String,
